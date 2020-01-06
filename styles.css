@@ -1,0 +1,46 @@
+#board {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 300px;
+  width: 300px;
+}
+
+#board .red {
+  background-color: red;
+}
+
+#board .grey {
+  background-color: grey;
+}
+
+.tile {
+  height: 100px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tile .black {
+  background-color: black;
+}
+
+.tile .white {
+  background-color: white;
+}
+
+.pawn {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
